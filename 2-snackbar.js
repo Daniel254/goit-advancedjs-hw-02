@@ -1,0 +1,2 @@
+import{n as e}from"./assets/rolldown-runtime-Bh1tDfsg.js";import"./assets/styles-DuQLmzyV.js";import{n as t}from"./assets/vendor-CzZ_7Odi.js";var n=e(t(),1),r=document.querySelector(`.form`);r.addEventListener(`submit`,e=>{e.preventDefault(),new Promise((e,t)=>{let n=Number(r.elements.delay.value),i=r.elements.state.value;setTimeout(()=>{i===`fulfilled`?e(`✅ Fulfilled promise in ${n}ms`):t(`❌ Rejected promise in ${n}ms`)},n)}).then(e=>n.default.success({message:e})).catch(e=>n.default.error({message:e}))});
+//# sourceMappingURL=2-snackbar.js.map
